@@ -1,0 +1,63 @@
+header {
+    text-align: center;
+}
+
+nav {
+    /* align-items: center; */
+    width: 90%;
+    height: 40px;
+    padding-top: 10px;
+    border-radius: 10px;
+    background: #f3f3f3;
+    border: 1px solid #cccccc;
+    /* position: absolute; */
+}
+
+nav ul {
+    /* text-align: center; */
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 900px;
+    /* border: 1px solid red; */
+}
+
+nav ul li {
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    /* border: 1px solid red; */
+}
+
+nav ul li a {
+    margin-right: 20px;
+    display: block;
+    line-height: 30px;
+}
+
+.leftsection {
+    width: 70%;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    float: right;
+    /* border: 1px solid red; */
+}
+
+aside ul {
+    border: 1px solid gray;
+    width: 50%;
+}
+
+
+footer {
+    margin-top: 25px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+

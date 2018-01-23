@@ -1,0 +1,131 @@
+.container {
+    width: 80%;
+    margin: 120px auto;
+    outline: 1px solid black; 
+     /* border: 2px solid black;  */
+    /* border-color: black; */
+}
+
+
+.div1 {
+    float: left;
+    width: 98%;
+    height: 100px;
+    outline: 1px solid red;
+}
+
+.div2 {
+    float: left;
+    width: 33%;
+    height: 100px;
+    outline: 1px solid olive;
+}
+
+.div3 {
+    float: left;
+    width: 32%;
+    height: 100px;
+    outline: 1px solid fuchsia;    
+}
+
+.div4 {
+    float: left;
+    width: 32%;
+    height: 100px;
+    outline: 1px solid maroon;
+}
+
+.div5 {
+    float: left;
+    width: 98%;
+    height: 100px;
+    outline: 1px solid blue;
+}
+
+/* sample02.html */
+
+header {
+    padding: 0px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+nav {
+    text-align: center;
+    background-color: cyan;
+    padding-top: 10px;
+    height: 40px;
+}
+
+ul li {
+    display: inline;   /*remove the dot of the list*/
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+article {
+    padding: 5px;
+    border: dotted 3px #ff0066;
+    margin-top: 5px;
+    background-color: yellow;
+}
+
+aside {
+    padding: 5px;
+    border: double 5px #b200ff;
+    margin-top: 5px;
+    text-align: center;
+    font-style: italic;
+    background-color: lightskyblue;
+}
+
+section {
+    padding: 5px;
+    margin-top: 5px;
+    border: dashed 5px #0022ff;
+}
+
+footer {
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* sample02a.html */
+.header_tiger {
+    padding: 0px;
+    text-align: center;
+    background-color: grey;
+}
+
+.tiger_container {
+    width: 80%;
+    height:450px;
+    margin: 120px auto;
+    /* outline: 1px solid black;  */
+}
+
+.article_video {
+    float: left;
+    width: 60%;
+    height: 100px;
+    /* outline: 1px solid olive; */
+}
+
+.tiger_aside {
+    float: left;
+    width: 33%;
+    height: 100px;
+    /* outline: 1px solid red; */
+}
+
+.tiger_footer {
+    /* float: left; */
+    position: relative;
+    width: 100%;
+    height: 100px;
+    /* outline: 1px solid grey; */
+}
