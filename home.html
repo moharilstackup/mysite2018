@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Bootstrap walkthrough">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Moharil">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My First BootStrap Page</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- fontawesome.io -->
+    <script src="https://use.fontawesome.com/032c160719.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
+
+    <!-- My own CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/freestyle.css" />
+
+</head>
+
+
+
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1>My First Bootstrap Page</h1>
+            <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on
+                the web.
+            </p>
+        </div>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">COMWorks</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <input type="text" placeholder="Search" class="form-control" />
+                        </div>
+                        <button type="submit" class="btn btn-default">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row mystyle">
+                <div class="col-xs-12 col-sm-6 mystyle">
+                    <div class="styleForm1">
+                        <form action="/action_page.php">
+                            <div class="form-group">
+                                <label for="email">Email address:</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Password:</label>
+                                <input type="password" class="form-control" id="pwd">
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Remember me</label>
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 text-center mystyle">
+                    <h1>About REO Speedwagon</h1>
+                    <hr> REO Speedwagon (originally styled as R.E.O. Speedwagon) is an American rock band from Champaign, Illinois.
+                    Formed in 1967, the band cultivated a following during the 1970s and achieved significant commercial
+                    success throughout the 1980s. Hi Infidelity (1980) contained four US Top 40 hits and is the group's best-selling
+                    album, with over ten million copies sold. Over the course of its career, the band has sold more than
+                    40 million records and has charted thirteen Top 40 hits, including the number ones "Keep On Loving You"
+                    and "Can't Fight This Feeling". REO Speedwagon's mainstream popularity waned in the late 1980s, but the
+                    band remains a popular live act.
+                </div>
+            </div>
+            <div class="row mystyle">
+                <div class="col-xs-12"> 3
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                        <!-- v=zpOULjyy-n8 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <div class="container-fluid">
+            <div class="row mystyle">
+                <div class="col-md-4 mystyle">
+                    <h2>Heading2</h2>
+                    <p>
+                        In the fall of 1966, Neal Doughty entered the electrical engineering program at the University of Illinois in Champaign,
+                        Illinois, coming in as a junior. On his first night, he met another student, Alan Gratzer. They held
+                        an impromptu jam session in the basement of their Illinois Street Residence Hall dormitory,[1][2]
+                        and soon started a rock band. Gratzer had been a drummer since high school, and was playing in a
+                        local group on the weekends, while Doughty had learned some Beatles songs on his parents' piano.
+                    </p>
+                    <p>
+                        <a href="#" class="btn btn-default" role="button">View Details &raquo;</a>
+                    </p>
+                </div>
+                <div class="col-md-4 mystyle">
+                    <h2>Heading2</h2>
+                    <p>
+                        Doughty started to follow around Gratzer's band, eventually sitting in on a song or two. The keyboard player was the leader,
+                        but several other band members were unhappy with the situation. On the last day of the university's
+                        spring semester, guitarist Joe Matt called the band's leader and told him that he, drummer Gratzer,
+                        and bassist Mike Blair had decided to leave the band and start a new one with Doughty.
+                    </p>
+                    <p>
+                        <a href="#" class="btn btn-default" role="button">View Details &raquo;</a>
+                    </p>
+                </div>
+                <div class="col-md-4 mystyle">
+                    <h2>Heading2</h2>
+                    <p>
+                        The band signed to Epic Records in 1971. Paul Leka, an East Coast record producer, brought the band to his recording studio
+                        in Bridgeport, Connecticut where it recorded original material for its first album. The lineup on
+                        the first album consisted of Richrath, Gratzer, Doughty, Philbin, and Luttrell.
+                    </p>
+                    <p>
+                        <a href="#" class="btn btn-default" role="button">View Details &raquo;</a>
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row mystyle">
+                <div class="col-xs-12 col-md-4 panel panel-default">
+                    <h3 class="text-center">Operating Hours </h3>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Day</th>
+                                <th>Hours</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Monday to Thursday
+                                </td>
+                                <td>
+                                    0900 - 1700 hrs
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Friday and Saturday
+                                </td>
+                                <td>
+                                    1100 - 1500 hrs
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    Sunday
+                                </td>
+                                <td>
+                                    Closed
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe src="https://goo.gl/KUBB7L" class="responsive-embed"></iframe>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <h3> Check Me Out</h3>
+                    <br>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">
+                            <i class="fa fa-envelope fa-2x" aria-hidden="true"> moharilstackup@gmail.com</i>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <i class="fa fa-phone fa-2x" aria-hidden="true"> +65 6603 7720</i>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <i class="fa fa-telegram fa-2x" aria-hidden="true"> t.me/moharilstackup</i>
+                        </a>
+                    </div>
+                </div>
+
+                <hr>
+                <div class="row">
+                    <div clas="col-xs-12 text-center">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com" data-toggle="tooltip" title="Hooray Facebook!">
+                                    <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com" data-toggle="tooltip" title="Hooray Instagram!">
+                                    <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.google.com" target="_blank">
+                                    <i class="fa fa-google  fa-3x" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.snapchat.com" target="_blank">
+                                    <i class="fa fa-snapchat fa-3x" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        Copyright &copy; 2018. ComWorks Pte Ltd
+    </footer>
+</body>
+
+</html>
+<!-- mystyle -->
