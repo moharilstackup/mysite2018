@@ -1,7 +1,8 @@
  .mystyle {
-    /* border: 1px solid red; */
-    margin:0 auto;
+    border: 1px solid red;
+/*     margin:0 auto;
     text-align: center;
+    padding: 10px; */
 
 } 
 
@@ -18,7 +19,7 @@
 }
 
 
-	/* Conatct start */
+	/* Contact start */
 
     .header-title
     {
