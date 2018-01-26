@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Bootstrap walkthrough">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Moharil">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My First BootStrap Page</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- fontawesome.io -->
+    <script src="https://use.fontawesome.com/032c160719.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- My own CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/freestyle.css" />
+
+</head>
+
+
+
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1>My First Bootstrap Page</h1>
+            <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on
+                the web.
+            </p>
+        </div>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">COMWorks</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contactme.html">Contact</a>
+                    </li>
+                </ul>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <input type="text" placeholder="Search" class="form-control" />
+                        </div>
+                        <button type="submit" class="btn btn-default">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+        <hr>
+        <div class="container animated fadeIn">
+
+            <div class="row">
+                <h1 class="header-title"> Contact </h1>
+                <hr>
+                <div class="col-sm-12" id="parent">
+                    <div class="col-sm-6">
+                        <iframe width="100%" height="320px;" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31909.620232364556!2d103.92971293650693!3d1.3550729526804461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da3d8fa77d6515%3A0x3d4486c01a908351!2sIBM+Singapore+Technology+Park+(ISTP)!5e0!3m2!1sen!2ssg!4v1516896141140"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <form action="form.php" class="contact-form" method="post">
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" name="nm" placeholder="Name" required="" autofocus="">
+                            </div>
+
+
+                            <div class="form-group form_left">
+                                <input type="email" class="form-control" id="email" name="em" placeholder="Email" required="">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="phone" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="10"
+                                    placeholder="Mobile No." required="">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control textarea-contact" rows="5" id="comment" name="FB" placeholder="Type Your Message/Feedback here..."
+                                    required=""></textarea>
+                                <br>
+                                <button class="btn btn-default btn-send">
+                                    <span class="glyphicon glyphicon-send"></span> Send </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container second-portion">
+                <div class="row">
+                    <!-- Boxes de Acoes -->
+                    <div class="col-xs-12 col-sm-6 col-lg-4">
+                        <div class="box">
+                            <div class="icon">
+                                <div class="image">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </div>
+                                <div class="info">
+                                    <h3 class="title">MAIL & WEBSITE</h3>
+                                    <p>
+                                        <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp moharilstackup@gmail.com
+                                        <br>
+                                        <br>
+                                        <i class="fa fa-globe" aria-hidden="true"></i> &nbsp www.moharilstackup.com
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="space"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-lg-4">
+                        <div class="box">
+                            <div class="icon">
+                                <div class="image">
+                                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                                </div>
+                                <div class="info">
+                                    <h3 class="title">CONTACT</h3>
+                                    <p>
+                                        <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp (+65)-66037720
+                                        <br>
+                                        <br>
+                                        <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp (+65)-66036500
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="space"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-lg-4">
+                        <div class="box">
+                            <div class="icon">
+                                <div class="image">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                </div>
+                                <div class="info">
+                                    <h3 class="title">ADDRESS</h3>
+                                    <p>
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp 6 Tampines Industrial Ave 5, Singapore 528760
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="space"></div>
+                        </div>
+                    </div>
+                    <!-- /Boxes de Acoes -->
+
+                    <!--My Portfolio  dont Copy this -->
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <footer>
+        Copyright &copy; 2018. ComWorks Pte Ltd
+    </footer>
+</body>
+
+</html>
+<!-- mystyle -->
